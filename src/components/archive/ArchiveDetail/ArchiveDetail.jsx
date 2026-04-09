@@ -1,6 +1,8 @@
 import "./ArchiveDetail.css";
 
 export default function ArchiveDetail({ item, artist }) {
+  const BASE = import.meta.env.BASE_URL; // 🔥 추가
+
   return (
     <div className="archive-detail">
 
@@ -12,7 +14,10 @@ export default function ArchiveDetail({ item, artist }) {
         <div className="main-media">
           {item.mainMedia?.src ? (
             item.mainMedia.type === "image" ? (
-              <img src={item.mainMedia.src} alt={item.title} />
+              <img
+                src={BASE + item.mainMedia.src} // 🔥 수정
+                alt={item.title}
+              />
             ) : (
               <iframe src={item.mainMedia.src} />
             )
@@ -34,7 +39,9 @@ export default function ArchiveDetail({ item, artist }) {
       <div className="media-grid">
         {(item.media?.length ? item.media : [1, 2, 3]).map((img, i) => (
           <div className="media-box" key={i}>
-            {typeof img === "string" ? <img src={img} /> : null}
+            {typeof img === "string" ? (
+              <img src={BASE + img} alt="" /> // 🔥 수정
+            ) : null}
           </div>
         ))}
       </div>

@@ -7,7 +7,7 @@ import ArtistDetail from "./pages/ArtistDetail";
 import ArchiveDetail from "./pages/ArchiveDetail";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/namedly">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/professor" element={<Professor />} />
