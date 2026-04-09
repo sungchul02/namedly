@@ -1,12 +1,12 @@
-.archive-filter {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 30px;
-}
-
 .archive-filter button {
   padding: 6px 14px;
   border-radius: 20px;
   background: #e5e5e5;
   border: none;
+  cursor: pointer;
+}
+
+.archive-filter button.active {
+  background: black;
+  color: white;
 }

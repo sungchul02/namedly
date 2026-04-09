@@ -8,8 +8,8 @@ export default function ArtistGrid({ data, onHover, onLeave }) {
         <ArtistItem
           key={item.id}
           item={item}
-          onHover={onHover}   // 🔥 반드시 추가
-          onLeave={onLeave}   // 🔥 반드시 추가
+          onHover={onHover}     // 🔥 전달
+          onLeave={onLeave}     // 🔥 전달
         />
       ))}
     </div>

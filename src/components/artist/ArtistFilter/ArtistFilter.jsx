@@ -1,15 +1,15 @@
 import "./ArtistFilter.css";
 
-export default function ArtistFilter({ categories, selected, onSelect }) {
+export default function ArtistFilter({ subjects, selected, onSelect }) {
   return (
     <div className="artist-filter">
-      {categories.map((cat) => (
+      {subjects.map((subject) => (
         <button
-          key={cat}
-          className={selected === cat ? "active" : ""}
-          onClick={() => onSelect(cat)}
+          key={subject}
+          className={selected === subject ? "active" : ""}
+          onClick={() => onSelect(subject)}
         >
-          {cat}
+          {subject}
         </button>
       ))}
     </div>

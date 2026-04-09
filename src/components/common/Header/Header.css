@@ -9,17 +9,33 @@
 .header h1 {
   font-size: 36px;
   font-weight: 900;
+  cursor: pointer;
 }
 
 /* 네비 */
-.header nav {
+.nav {
   display: flex;
   gap: 30px;
 }
 
-/* 링크 스타일 제거 */
-.header nav a {
-  text-decoration: none;
-  color: black;
+/* 버튼 초기화 */
+.nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
   font-size: 14px;
+  color: #777;
+  padding: 0;
+  transition: 0.2s;
+}
+
+/* hover */
+.nav button:hover {
+  color: #000;
+}
+
+/* 활성화 */
+.nav button.active {
+  color: #000;
+  font-weight: 600;
 }

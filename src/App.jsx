@@ -4,7 +4,7 @@ import Professor from "./pages/Professor";
 import Artist from "./pages/Artist";
 import Archive from "./pages/Archive";
 import ArtistDetail from "./pages/ArtistDetail";
-
+import ArchiveDetail from "./pages/ArchiveDetail";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +14,7 @@ function App() {
         <Route path="/artist" element={<Artist />} />
         <Route path="/artist/:id" element={<ArtistDetail />} />
         <Route path="/archive" element={<Archive />} />
+        <Route path="/archive/:id" element={<ArchiveDetail />} />
       </Routes>
     </BrowserRouter>
   );
