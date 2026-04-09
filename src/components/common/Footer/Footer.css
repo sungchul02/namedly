@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 80px;
+  padding: 60px 0;
+}
+
+.footer-inner {
+  width: 1280px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 왼쪽 */
+.footer-left h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/* 아이콘 */
+.footer-icons {
+  display: flex;
+  gap: 15px;
+}
+
+/* 오른쪽 */
+.footer-right {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-col p {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 8px;
+}

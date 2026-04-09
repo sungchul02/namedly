@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "작품 제목",
+    "category": "패키지디자인",
+    "author": "이름"
+  },
+  {
+    "id": 2,
+    "title": "작품 제목",
+    "category": "UX/UI",
+    "author": "이름"
+  },
+  {
+    "id": 3,
+    "title": "작품 제목",
+    "category": "브랜딩",
+    "author": "이름"
+  },
+  {
+    "id": 4,
+    "title": "작품 제목",
+    "category": "그래픽디자인",
+    "author": "이름"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "이름",
+    "category": "패키지디자인",
+    "description": "설명 이다 이것은",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "이름",
+    "category": "브랜딩",
+    "description": "설명 이다 이것은",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "이름",
+    "category": "UX/UI",
+    "description": "설명 이다 이것은",
+    "image": ""
+  }
+]

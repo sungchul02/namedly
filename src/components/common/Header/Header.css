@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+}
+
+/* 로고 */
+.header h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+/* 네비 */
+.header nav {
+  display: flex;
+  gap: 30px;
+}
+
+/* 링크 스타일 제거 */
+.header nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
